@@ -1,0 +1,54 @@
+###
+POST localhost:8082/api/account
+Content-Type: application/json
+
+{
+  "username": "alex",
+  "password": "alex123",
+  "email": "alex@test.com"
+}
+
+###
+GET localhost:8082/api/private/account/michael
+
+###
+POST localhost:8082/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "michael",
+  "password": "1234",
+  "email": "michael@test.com"
+}
+
+###
+POST localhost:8082/api/tasks
+Content-Type: application/json
+
+{
+  "username": "alex",
+  "title": "Shopping",
+  "description": "Buy groceries for dinner",
+  "status": "COMPLETED",
+  "priority": "MEDIUM",
+  "deadline": "2025-01-27T20:00:00"
+}
+
+###
+GET localhost:8082/api/tasks/id/1
+
+###
+GET localhost:8082/api/tasks/user/michael
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtaWNoYWVsIiwiaWF0IjoxNzQwOTQ0MDU0LCJleHAiOjE3NDA5NjIwNTR9.IvGlZ5pO1bfVcANGWwXhYYG0YA_d0z9a-m-dPkPKbFE
+
+###
+DELETE localhost:8082/api/tasks/2
+
+###
+POST localhost:8082/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "michael",
+  "password": "1234"
+}
