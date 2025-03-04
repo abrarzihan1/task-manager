@@ -2,6 +2,8 @@
 
 A web application that allows users to manage tasks efficiently, stay on top of their deadlines, and collaborate effectively. This application provides functionalities such as task creation, viewing tasks, updating task details, and managing task statuses.
 
+![image](https://github.com/user-attachments/assets/745719b7-a0db-447d-8516-16e9bcca723b)
+
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
 2. [Project Setup](#project-setup)
