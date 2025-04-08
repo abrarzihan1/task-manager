@@ -14,7 +14,7 @@ A web application that allows users to manage tasks efficiently, stay on top of 
 5. [Contributing](#contributing)
 6. [License](#license)
 
----
+ 
 
 ## Technologies Used
 
@@ -33,7 +33,7 @@ A web application that allows users to manage tasks efficiently, stay on top of 
 - **Authentication:**
     - JWT (JSON Web Tokens) for user authentication
 
----
+ 
 
 ## Project Setup
 
@@ -91,8 +91,6 @@ A web application that allows users to manage tasks efficiently, stay on top of 
 
    The Spring Boot server will run on `http://localhost:8082`.
 
----
-
 ### Frontend Setup
 
 1. **Install Node.js and NPM:**
@@ -126,16 +124,12 @@ A web application that allows users to manage tasks efficiently, stay on top of 
 
    The frontend will be accessible at `http://localhost:3000`.
 
----
-
 ## Database Setup
 
 1. **PostgreSQL Database:**
     - Make sure your PostgreSQL server is running.
     - The project uses PostgreSQL as the database.
 
-
----
 
 ## Features
 
