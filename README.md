@@ -148,13 +148,9 @@ A web application that allows users to manage tasks efficiently, stay on top of 
 - **Task Details**: View and edit detailed task information including description, due date, priority, and status.
 - **Task Filtering**: Filter tasks to show only upcoming tasks, with the option to hide past tasks.
 
----
-
 ## Contributing
 
 We welcome contributions to this project!
-
----
 
 ## License
 
